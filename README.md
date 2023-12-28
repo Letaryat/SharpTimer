@@ -1,5 +1,5 @@
 # SharpTimer
-SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc. CS2 Timer plugin using CounterStrikeSharp
+SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc. CS2 Timer plugin using CounterStrikeSharp<br>
 Author: [@DEAFPS_](https://twitter.com/deafps_)
 
 ## Dependencies
@@ -19,7 +19,9 @@ Author: [@DEAFPS_](https://twitter.com/deafps_)
 
 * Unzip into your servers `game/csgo/` dir
 
-* Its recommended to have a custom server cfg with your desired settings (for example surf or kz)
+* See `game/csgo/cfg/SharpTimer/config.cfg` for basic plugin configuration *⚠️ you want to take a look in there first*
+
+* Its recommended to have a custom server cfg with your desired settings (for example [SURF](https://github.com/DEAFPS/cs-cfg/blob/main/surf.cfg) or [KZ]((https://github.com/DEAFPS/cs-cfg/blob/main/kz.cfg)))
 
 * Here a collection of maps supported by default: https://steamcommunity.com/sharedfiles/filedetails/?id=3095738559
 
@@ -41,9 +43,9 @@ Author: [@DEAFPS_](https://twitter.com/deafps_)
 
 <details> 
   <summary>Checkpoint system (disabled by default)</summary>
-   <img src="https://i.imgur.com/USX5i8C.png">
-   <img src="https://i.imgur.com/kWiHOlz.png">
-   <img src="https://i.imgur.com/lXwXNN7.png">
+   <img src="https://i.imgur.com/USX5i8C.png"><br>
+   <img src="https://i.imgur.com/kWiHOlz.png"><br>
+   <img src="https://i.imgur.com/lXwXNN7.png"><br>
    <img src="https://i.imgur.com/nyn76Q4.png">
 </details>
 
@@ -78,15 +80,6 @@ These commands require the `@css/root` admin flag
 | `!addendzone`  | Adds a manual end zone |
 | `!savezones`  | Saves manually set zones to mapdata.json |
 
-## Configuration
-* See `game/csgo/cfg/SharpTimer/config.cfg` for basic plugin configuration *⚠️ you want to take a look in there first*
-  
-* You can add custom server settings to `game/csgo/cfg/SharpTimer/custom_exec.cfg`
-  
-  [Example Surf Cfg](https://github.com/DEAFPS/cs-cfg/blob/main/surf.cfg)
-
-  [Example KZ Cfg](https://github.com/DEAFPS/cs-cfg/blob/main/kz.cfg)
-  
 ### Adding Zone Triggers
 * This plugin will look for trigger_multiple entities by default depending what map is being played. By default the plugin tries to hook the following target names:
 
@@ -114,14 +107,14 @@ These commands require the `@css/root` admin flag
 
 * Here is a Example of what the `map.json` can look like with both map triggers and manual triggers:
 
-### surf_utopia_njv.json
+#### surf_utopia_njv.json
 ```
 {
   "MapStartTrigger": "zone_start",
   "MapEndTrigger": "zone_end"
 }
 ```
-### bhop_zentic.json
+#### bhop_zentic.json
 ```
 {
   "MapStartC1": "-67.89055 188.01341 64.03125",
