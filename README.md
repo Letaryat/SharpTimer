@@ -2,18 +2,6 @@
 SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc. CS2 Timer plugin using CounterStrikeSharp<br>
 Author: [@DEAFPS_](https://twitter.com/deafps_)
 
-## Dependencies
-
-[**MetaMod**](https://cs2.poggu.me/metamod/installation/)
-
-[**CounterStrikeSharp** *(at least v126)*](https://github.com/roflmuffin/CounterStrikeSharp/releases)
-
-[**MovementUnlocker** *(optional but recommended)*](https://github.com/Source2ZE/MovementUnlocker)
-
-[**Web panel** *(optional but recommended)*](https://github.com/Letaryat/sharptimer-web-panel)
-
-:exclamation: **CS2Fixes** does clash with **CSS** there fore the plugin might not work correctly with it
-
 ## Features
 <details> 
   <summary>Timer, speedometer and key input</summary>
@@ -32,6 +20,18 @@ Author: [@DEAFPS_](https://twitter.com/deafps_)
    <img src="https://i.imgur.com/lXwXNN7.png"><br>
    <img src="https://i.imgur.com/nyn76Q4.png">
 </details>
+
+## Dependencies
+
+[**MetaMod**](https://cs2.poggu.me/metamod/installation/)
+
+[**CounterStrikeSharp** *(at least v126)*](https://github.com/roflmuffin/CounterStrikeSharp/releases)
+
+[**MovementUnlocker** *(optional but recommended)*](https://github.com/Source2ZE/MovementUnlocker)
+
+[**Web panel** *(optional but recommended)*](https://github.com/Letaryat/sharptimer-web-panel)
+
+:exclamation: **CS2Fixes** does clash with **CSS** there fore the plugin might not work correctly with it
 
 ## Install
 * Download the [latest release](https://github.com/DEAFPS/SharpTimer/releases),
