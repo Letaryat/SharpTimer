@@ -80,6 +80,8 @@ These commands require the `@css/root` admin flag
 | `!addendzone`  | Adds a manual end zone |
 | `!savezones`  | Saves manually set zones to mapdata.json |
 
+## Zones
+
 ### Adding Zone Triggers
 * This plugin will look for trigger_multiple entities by default depending what map is being played. By default the plugin tries to hook the following target names:
 
@@ -105,27 +107,34 @@ These commands require the `@css/root` admin flag
 ### Adding "Fake" Zone Triggers
 * Many maps do not contain any `startzone` or `endzone` triggers. As a server admin with a `@css/root` flag you can use `!addrespawnpos`, `!addstartzone`, `!addendzone` & `!savezones` to manually add "fake" zone triggers! [Example Video](https://streamable.com/9ez6gq)
 
-* Here is a Example of what the `map.json` can look like with both map triggers and manual triggers:
+* <details> 
+  <summary>Here is a Example of what the `map.json` can look like with both map triggers and manual triggers:</summary>
+      #### surf_utopia_njv.json
+      ```
+      {
+        "MapStartTrigger": "zone_start",
+        "MapEndTrigger": "zone_end"
+      }
+      ```
+      #### bhop_zentic.json
+      ```
+      {
+        "MapStartC1": "-67.89055 188.01341 64.03125",
+        "MapStartC2": "123.32273 -187.58983 64.03125",
+        "MapEndC1": "13736.031 1540.6246 -639.96875",
+        "MapEndC2": "13884.47 1915.2767 -639.96875",
+        "RespawnPos": "-2 0 64.03125"
+      }
+      ```
+</details>
 
-#### surf_utopia_njv.json
-```
-{
-  "MapStartTrigger": "zone_start",
-  "MapEndTrigger": "zone_end"
-}
-```
-#### bhop_zentic.json
-```
-{
-  "MapStartC1": "-67.89055 188.01341 64.03125",
-  "MapStartC2": "123.32273 -187.58983 64.03125",
-  "MapEndC1": "13736.031 1540.6246 -639.96875",
-  "MapEndC2": "13884.47 1915.2767 -639.96875",
-  "RespawnPos": "-2 0 64.03125"
-}
-```
 ### Adding Zone outline guides
-* This plugin will look for info_target entities to define the zone outlines. Mappers can place these at the opposite corners of the zone triggers like shown in [this example](https://i.imgur.com/8nJBHaH.jpeg)
+* This plugin will look for info_target entities to define the zone outlines. Mappers can place these at the opposite corners of the zone triggers like shown in
+<details> 
+  <summary>EXAMPLE</summary>
+   <img src="https://i.imgur.com/8nJBHaH.jpeg">
+</details>
+
 * These are the supported info_target targetnames
 
 | Start Zone info_target targetname  | End Zone info_target targetname |
