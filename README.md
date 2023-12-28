@@ -15,20 +15,20 @@ Author: [@DEAFPS_](https://twitter.com/deafps_)
 :exclamation: **CS2Fixes** does clash with **CSS** there fore the plugin might not work correctly with it
 
 ## Install
-* Download the [latest release](https://github.com/DEAFPS/SharpTimer/releases)
+* Download the [latest release](https://github.com/DEAFPS/SharpTimer/releases),
 
-* Unzip into your servers `game/csgo/` dir
+* Unzip into your servers `game/csgo/` directory,
 
-:exclamation: See `game/csgo/cfg/SharpTimer/config.cfg` for basic plugin configuration
+* :exclamation: See `game/csgo/cfg/SharpTimer/config.cfg` for basic plugin configuration,
 
-:exclamation: Its recommended to have a custom server cfg with your desired settings (for example [SURF](https://github.com/DEAFPS/cs-cfg/blob/main/surf.cfg) or [KZ](https://github.com/DEAFPS/cs-cfg/blob/main/kz.cfg))
+* :exclamation: It is recommended to have a custom server cfg with your desired settings (for example [SURF](https://github.com/DEAFPS/cs-cfg/blob/main/surf.cfg) or [KZ](https://github.com/DEAFPS/cs-cfg/blob/main/kz.cfg)),
 
-* Here a collection of maps supported by default: https://steamcommunity.com/sharedfiles/filedetails/?id=3095738559
+* Here is a collection of maps that are supported by default: https://steamcommunity.com/sharedfiles/filedetails/?id=3095738559,
 
 ## MySQL
-* Head over to `game/csgo/cfg/SharpTimer/config.cfg` and enable `sharptimer_mysql_enabled`
+* Head over to `game/csgo/cfg/SharpTimer/config.cfg` and enable `sharptimer_mysql_enabled`,
 
-  After that configure your MySQL connection in `mysqlConfig.json` that is located in the same dir
+* Configure MySQL connection with database credentials in `mysqlConfig.json`, which is located in the same directory,
 
 ## Features
 <details> 
@@ -48,9 +48,6 @@ Author: [@DEAFPS_](https://twitter.com/deafps_)
    <img src="https://i.imgur.com/lXwXNN7.png"><br>
    <img src="https://i.imgur.com/nyn76Q4.png">
 </details>
-
-
-
 
 ## Commands
 
@@ -107,8 +104,7 @@ These commands require the `@css/root` admin flag
 ### Adding "Fake" Zone Triggers
 * Many maps do not contain any `startzone` or `endzone` triggers. As a server admin with a `@css/root` flag you can use `!addrespawnpos`, `!addstartzone`, `!addendzone` & `!savezones` to manually add "fake" zone triggers! [Example Video](https://streamable.com/9ez6gq)
 
-* <details> 
-  <summary>Here is a Example of what the `map.json` can look like with both map triggers and manual triggers:</summary>
+  Here is a Example of what the `map.json` can look like with both map triggers and manual triggers:
       #### surf_utopia_njv.json
       ```
       {
@@ -126,7 +122,6 @@ These commands require the `@css/root` admin flag
         "RespawnPos": "-2 0 64.03125"
       }
       ```
-</details>
 
 ### Adding Zone outline guides
 * This plugin will look for info_target entities to define the zone outlines. Mappers can place these at the opposite corners of the zone triggers.<details> 
