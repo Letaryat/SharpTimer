@@ -21,7 +21,7 @@ Author: [@DEAFPS_](https://twitter.com/deafps_)
 
 * See `game/csgo/cfg/SharpTimer/config.cfg` for basic plugin configuration *⚠️ you want to take a look in there first*
 
-* Its recommended to have a custom server cfg with your desired settings (for example [SURF](https://github.com/DEAFPS/cs-cfg/blob/main/surf.cfg) or [KZ]((https://github.com/DEAFPS/cs-cfg/blob/main/kz.cfg)))
+* Its recommended to have a custom server cfg with your desired settings (for example [SURF](https://github.com/DEAFPS/cs-cfg/blob/main/surf.cfg) or [KZ](https://github.com/DEAFPS/cs-cfg/blob/main/kz.cfg))
 
 * Here a collection of maps supported by default: https://steamcommunity.com/sharedfiles/filedetails/?id=3095738559
 
