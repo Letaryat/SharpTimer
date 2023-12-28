@@ -14,22 +14,6 @@ Author: [@DEAFPS_](https://twitter.com/deafps_)
 
 :exclamation: **CS2Fixes** does clash with **CSS** there fore the plugin might not work correctly with it
 
-## Install
-* Download the [latest release](https://github.com/DEAFPS/SharpTimer/releases),
-
-* Unzip into your servers `game/csgo/` directory,
-
-* :exclamation: See `game/csgo/cfg/SharpTimer/config.cfg` for basic plugin configuration,
-
-* :exclamation: It is recommended to have a custom server cfg with your desired settings (for example [SURF](https://github.com/DEAFPS/cs-cfg/blob/main/surf.cfg) or [KZ](https://github.com/DEAFPS/cs-cfg/blob/main/kz.cfg)),
-
-* Here is a [collection of maps that are supported by default](https://steamcommunity.com/sharedfiles/filedetails/?id=3095738559),
-
-## MySQL
-* Head over to `game/csgo/cfg/SharpTimer/config.cfg` and enable `sharptimer_mysql_enabled`,
-
-* Configure MySQL connection with database credentials in `mysqlConfig.json`, which is located in the same directory,
-
 ## Features
 <details> 
   <summary>Timer, speedometer and key input</summary>
@@ -48,6 +32,22 @@ Author: [@DEAFPS_](https://twitter.com/deafps_)
    <img src="https://i.imgur.com/lXwXNN7.png"><br>
    <img src="https://i.imgur.com/nyn76Q4.png">
 </details>
+
+## Install
+* Download the [latest release](https://github.com/DEAFPS/SharpTimer/releases),
+
+* Unzip into your servers `game/csgo/` directory,
+
+* :exclamation: See `game/csgo/cfg/SharpTimer/config.cfg` for basic plugin configuration,
+
+* :exclamation: It is recommended to have a custom server cfg with your desired settings (for example [SURF](https://github.com/DEAFPS/cs-cfg/blob/main/surf.cfg) or [KZ](https://github.com/DEAFPS/cs-cfg/blob/main/kz.cfg)),
+
+* Here is a [collection of maps that are supported by default](https://steamcommunity.com/sharedfiles/filedetails/?id=3095738559),
+
+## MySQL
+* Head over to `game/csgo/cfg/SharpTimer/config.cfg` and enable `sharptimer_mysql_enabled`,
+
+* Configure MySQL connection with database credentials in `mysqlConfig.json`, which is located in the same directory,
 
 ## Commands
 
