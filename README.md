@@ -1,7 +1,8 @@
 # SharpTimer
 SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc. CS2 Timer plugin using CounterStrikeSharp
+Author: [@DEAFPS_](https://twitter.com/deafps_)
 
-# Dependencies
+## Dependencies
 
 [**MetaMod**](https://cs2.poggu.me/metamod/installation/)
 
@@ -9,54 +10,11 @@ SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc. CS2 Timer plugin using Coun
 
 [**MovementUnlocker** *(optional but recommended)*](https://github.com/Source2ZE/MovementUnlocker)
 
+[**Web panel** *(optional but recommended)*](https://github.com/Letaryat/sharptimer-web-panel)
+
 ⚠️ **CS2Fixes** does clash with **CSS** there fore the plugin might not work correctly with it
 
-# Features
-<p align="center">
-<strong style="font-weight: bold;">----------------- [Timer, Speedometer and Keys] -----------------</strong>
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/cGUjH6m.png">
-</p>
-<br>
-<br>
-<br>
-<p align="center">
-<strong style="font-weight: bold;">-------------------------- [Players PBs] --------------------------</strong>
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/9HGOhRR.png">
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/amVXOHP.png">
-</p>
-<br>
-<br>
-<br>
-<p align="center">
-<strong style="font-weight: bold;">----------------- [Checkpoints (disabled by default)] -----------------</strong>
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/USX5i8C.png">
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/kWiHOlz.png">
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/lXwXNN7.png">
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/nyn76Q4.png">
-</p>
-
-# Install
+## Install
 * Download the [latest release](https://github.com/DEAFPS/SharpTimer/releases)
 
 * Unzip into your servers `game/csgo/` dir
@@ -65,7 +23,34 @@ SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc. CS2 Timer plugin using Coun
 
 * Here a collection of maps supported by default: https://steamcommunity.com/sharedfiles/filedetails/?id=3095738559
 
-# Commands
+## MySQL
+* Head over to `game/csgo/cfg/SharpTimer/config.cfg` and enable `sharptimer_mysql_enabled`
+
+  After that configure your MySQL connection in `mysqlConfig.json` that is located in the same dir
+
+## Features
+<details> 
+  <summary>Timer, speedometer and key input</summary>
+   <img src="https://i.imgur.com/cGUjH6m.png">
+</details>
+
+<details> 
+  <summary>Players personal best</summary>
+  <img src="https://i.imgur.com/9HGOhRR.png">
+</details>
+
+<details> 
+  <summary>Checkpoint system (disabled by default)</summary>
+   <img src="https://i.imgur.com/USX5i8C.png">
+   <img src="https://i.imgur.com/kWiHOlz.png">
+   <img src="https://i.imgur.com/lXwXNN7.png">
+   <img src="https://i.imgur.com/nyn76Q4.png">
+</details>
+
+
+
+
+## Commands
 
 | Command  | What it does |
 | ------------- | ------------- |
@@ -81,7 +66,7 @@ SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc. CS2 Timer plugin using Coun
 | `!prevcp` | Teleports the player to the previous checkpoint |
 | `!nextcp` | Teleports the player to the previous checkpoint |
 
-# Admin Commands
+## Admin Commands
 These commands require the `@css/root` admin flag
 
 | Command  | What it does |
@@ -93,7 +78,7 @@ These commands require the `@css/root` admin flag
 | `!addendzone`  | Adds a manual end zone |
 | `!savezones`  | Saves manually set zones to mapdata.json |
 
-# Configuration
+## Configuration
 * See `game/csgo/cfg/SharpTimer/config.cfg` for basic plugin configuration *⚠️ you want to take a look in there first*
   
 * You can add custom server settings to `game/csgo/cfg/SharpTimer/custom_exec.cfg`
@@ -156,12 +141,4 @@ These commands require the `@css/root` admin flag
 | right_start | right_end |
 
 
-# MySQL
-* Head over to `game/csgo/cfg/SharpTimer/config.cfg` and enable `sharptimer_mysql_enabled`
 
-  After that configure your MySQL connection in `mysqlConfig.json` that is located in the same dir
-
-# [Leaderboards Web Pannel](https://github.com/Letaryat/sharptimer-web-panel)
-
-# Author
-[@DEAFPS_](https://twitter.com/deafps_)
