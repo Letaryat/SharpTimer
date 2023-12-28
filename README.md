@@ -12,16 +12,16 @@ Author: [@DEAFPS_](https://twitter.com/deafps_)
 
 [**Web panel** *(optional but recommended)*](https://github.com/Letaryat/sharptimer-web-panel)
 
-⚠️ **CS2Fixes** does clash with **CSS** there fore the plugin might not work correctly with it
+:exclamation: **CS2Fixes** does clash with **CSS** there fore the plugin might not work correctly with it
 
 ## Install
 * Download the [latest release](https://github.com/DEAFPS/SharpTimer/releases)
 
 * Unzip into your servers `game/csgo/` dir
 
-* See `game/csgo/cfg/SharpTimer/config.cfg` for basic plugin configuration *⚠️ you want to take a look in there first*
+* :exclamation: See `game/csgo/cfg/SharpTimer/config.cfg` for basic plugin configuration
 
-* Its recommended to have a custom server cfg with your desired settings (for example [SURF](https://github.com/DEAFPS/cs-cfg/blob/main/surf.cfg) or [KZ](https://github.com/DEAFPS/cs-cfg/blob/main/kz.cfg))
+* :exclamation: Its recommended to have a custom server cfg with your desired settings (for example [SURF](https://github.com/DEAFPS/cs-cfg/blob/main/surf.cfg) or [KZ](https://github.com/DEAFPS/cs-cfg/blob/main/kz.cfg))
 
 * Here a collection of maps supported by default: https://steamcommunity.com/sharedfiles/filedetails/?id=3095738559
 
